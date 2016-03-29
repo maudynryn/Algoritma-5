@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+
+int main()
+{
+    int angka;
+
+    cout<<"Masukkan Angka : ";
+    cin>>angka;
+
+    if(angka<0)
+    cout<<"Angka Negatif"<<endl;
+    else if(angka>0)
+    cout<<"Angka Positif"<<endl;
+    else if(angka=0)
+    cout<<"Angka 0";<<endl;
+}
